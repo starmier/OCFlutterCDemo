@@ -17,6 +17,7 @@
 		A11398A32299928B008B1F84 /* OCCFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = A11398A22299928B008B1F84 /* OCCFile.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A11398AF2299B3E4008B1F84 /* OCInterfaceC.m in Sources */ = {isa = PBXBuildFile; fileRef = A11398AE2299B3E4008B1F84 /* OCInterfaceC.m */; };
 		A11398B52299B8ED008B1F84 /* InterfaceCC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A11398B42299B8ED008B1F84 /* InterfaceCC.cpp */; };
+		A1C32823229E4B2200646471 /* CppOCFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = A1C32822229E4B2200646471 /* CppOCFile.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		A11398B32299B469008B1F84 /* OCInterfaceCFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCInterfaceCFile.h; sourceTree = "<group>"; };
 		A11398B42299B8ED008B1F84 /* InterfaceCC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InterfaceCC.cpp; sourceTree = "<group>"; };
 		A11398B62299B8FB008B1F84 /* InterfaceCC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceCC.h; sourceTree = "<group>"; };
+		A1C32822229E4B2200646471 /* CppOCFile.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CppOCFile.mm; sourceTree = "<group>"; };
+		A1C32824229E4B2B00646471 /* CppOCFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CppOCFile.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 				A11398A22299928B008B1F84 /* OCCFile.mm */,
 				A113989B2299908E008B1F84 /* CppFile.cpp */,
 				A113989D2299909E008B1F84 /* CppFile.h */,
+				A1C32822229E4B2200646471 /* CppOCFile.mm */,
+				A1C32824229E4B2B00646471 /* CppOCFile.h */,
 				A11398B32299B469008B1F84 /* OCInterfaceCFile.h */,
 				A11398AD2299B3E4008B1F84 /* OCInterfaceC.h */,
 				A11398AE2299B3E4008B1F84 /* OCInterfaceC.m */,
@@ -176,6 +181,7 @@
 				A11398A32299928B008B1F84 /* OCCFile.mm in Sources */,
 				A11398B52299B8ED008B1F84 /* InterfaceCC.cpp in Sources */,
 				A113988A22999062008B1F84 /* ViewController.m in Sources */,
+				A1C32823229E4B2200646471 /* CppOCFile.mm in Sources */,
 				A113989522999062008B1F84 /* main.m in Sources */,
 				A113988722999062008B1F84 /* AppDelegate.m in Sources */,
 				A113989C2299908E008B1F84 /* CppFile.cpp in Sources */,
@@ -322,13 +328,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PVE2WH4PE2;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ObjectiveShuffle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yy.ObjectiveShuffle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sm.ObjectiveShuffle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -339,13 +345,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PVE2WH4PE2;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ObjectiveShuffle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yy.ObjectiveShuffle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sm.ObjectiveShuffle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

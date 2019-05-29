@@ -10,7 +10,6 @@ InterfaceCC::InterfaceCC(void* ocObj, OCInterfaceCFunction interfaceFunction)
 
 InterfaceCC::~InterfaceCC()
 {
-	
 }
 
 void InterfaceCC::doSomthings()

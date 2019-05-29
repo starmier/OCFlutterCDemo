@@ -1,6 +1,5 @@
 #include "CppFile.h"
 
-
 CppFile::CppFile(const std::string name)
 {
 	printf("%s.\n", name.c_str());

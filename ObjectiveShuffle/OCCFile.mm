@@ -4,9 +4,11 @@
 #include "OCInterfaceC.h"
 #include "InterfaceCC.h"
 
+#include "CppOCFile.h"
+
 @interface OCCFile ()
 {
-	CppFile* mCppFile;
+	CppFile* mCppFile;//换成void*方式
 }
 
 @end
@@ -22,6 +24,12 @@
 	return self;
 }
 
+- (void)doSomethingWithCPPobj:(id)cppobj
+{
+	CppOCFile* cppOb = (__bridge CppOCFile*)cppobj;
+	cppOb->DoSomething1();
+}
+//内部定义cpp对象
 - (void)doSomethingWithString:(NSString*)str
 {
 	const char* charStr = [str UTF8String];
